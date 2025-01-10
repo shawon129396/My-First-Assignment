@@ -331,3 +331,18 @@ body{
     line-height: 24px;
 
 }
+/* footer-section */
+.end-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+    
+}
+.img-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 32px 160px 50px 160px;
+}
