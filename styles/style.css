@@ -148,3 +148,27 @@ body{
     border-radius: 8px;
     background-color: #FFC239;
 }
+/* intro-section */
+.intro{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    margin: 32px 160px;
+    padding-left: 25px;
+    border-radius: 16px;
+    background-color: white;
+}
+.bg-img{
+    padding: 30px 20px;
+}
+.intro-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.intro-title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
