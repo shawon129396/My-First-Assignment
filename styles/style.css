@@ -1,15 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     background-color: #F1F1F3;
+    font-family: "Fira Sans", serif;
 }
 /* head-section */
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 24px 160px ;
 }
 .sign-in-btn{
@@ -150,13 +152,20 @@ body{
 }
 /* intro-section */
 .intro{
-    background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
+    position: relative;
     margin: 32px 160px;
     padding-left: 25px;
     border-radius: 16px;
     background-color: white;
     margin-bottom: 80px;
+    padding: 48px 24px;
+}
+.intro > img {
+    position: absolute;
+    top: 25px;
+    left: 24px;
+    width: 64px;
+    height: 64px;
 }
 .bg-img{
     padding: 30px 20px;
@@ -166,6 +175,7 @@ body{
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 12px;
+    
 }
 .intro-title{
     font-size: 20px;
@@ -260,17 +270,22 @@ body{
     gap: 24px;
     margin: 32px 160px;
 }
-.money-box1, .money-box3, .money-box4{
+.money-box {
     background-color: #6459593b;
     padding: 40px 40px;
     border: none;
     border-radius: 16px;
+    
+
 }
-.money-box2{
+
+.money-box:hover {
     background-color: #C6E4D6;
-    padding: 40px 40px;
-    border: none;
-    border-radius: 16px;
+}
+
+.money-box-active{
+    background-color: #C6E4D6;
+    
 }
 .custom-money-box{
     display: flex;
